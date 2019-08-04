@@ -1,0 +1,297 @@
+
+Connecting...
+Connect Success
+2019-08-02 11:31:39.320088
+USD/JPY
+Not open new position
+--------
+USD/CAD
+Not open new position
+--------
+EUR/JPY
+Not open new position
+--------
+GBP/CHF
+Not open new position
+--------
+NZD/CAD
+Not open new position
+--------
+NZD/CHF
+Not open new position
+--------
+CAD/CHF
+Not open new position
+--------
+GBP/USD
+Not open new position
+--------
+AUD/CHF
+Not open new position
+--------
+AUD/JPY
+Not open new position
+--------
+EUR/USD
+Not open new position
+--------
+USD/CHF
+Not open new position
+--------
+EUR/CAD
+Connecting...
+Connect Success
+2019-08-02 11:32:44.174503
+USD/JPY
+checking signal...USD/JPY
+predicted: [1]
+--------
+USD/CAD
+checking signal...USD/CAD
+predicted: [1]
+--------
+EUR/JPY
+checking signal...EUR/JPY
+predicted: [1]
+--------
+GBP/CHF
+checking signal...GBP/CHF
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+predicted: [1]
+--------
+NZD/CHF
+checking signal...NZD/CHF
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+predicted: [1]
+--------
+GBP/USD
+checking signal...GBP/USD
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+predicted: [1]
+--------
+AUD/JPY
+checking signal...AUD/JPY
+predicted: [1]
+--------
+EUR/USD
+checking signal...EUR/USD
+predicted: [1]
+--------
+USD/CHF
+checking signal...USD/CHF
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+predicted: [0]
+Open False
+limit: 38.0
+Open EUR/CAD False Success
+--------
+EUR/GBP
+checking signal...EUR/GBP
+predicted: [1]
+--------
+GBP/CAD
+checking signal...GBP/CAD
+predicted: [0]
+Open False
+limit: 38.0
+Open GBP/CAD False Success
+--------
+GBP/JPY
+checking signal...GBP/JPY
+predicted: [0]
+Open False
+limit: 33.0
+Open GBP/JPY False Success
+--------
+AUD/CAD
+checking signal...AUD/CAD
+predicted: [1]
+--------
+AUD/NZD
+checking signal...AUD/NZD
+predicted: [1]
+--------
+CHF/JPY
+checking signal...CHF/JPY
+predicted: [0]
+Open False
+limit: 33.0
+Open CHF/JPY False Success
+--------
+AUD/USD
+checking signal...AUD/USD
+predicted: [1]
+--------
+NZD/USD
+checking signal...NZD/USD
+predicted: [0]
+Open False
+limit: 30.0
+Open NZD/USD False Success
+--------
+EUR/AUD
+checking signal...EUR/AUD
+predicted: [0]
+Open False
+limit: 43.0
+Open EUR/AUD False Success
+--------
+EUR/CHF
+checking signal...EUR/CHF
+predicted: [0]
+Open False
+limit: 30.0
+Open EUR/CHF False Success
+--------
+EUR/NZD
+checking signal...EUR/NZD
+predicted: [2]
+Open True
+limit: 43.0
+Open EUR/NZD True Success
+--------
+GBP/AUD
+checking signal...GBP/AUD
+predicted: [1]
+--------
+GBP/NZD
+checking signal...GBP/NZD
+predicted: [0]
+Open False
+limit: 43.0
+Open GBP/NZD False Success
+--------
+CAD/JPY
+checking signal...CAD/JPY
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 13:24:53.237440
+USD/JPY
+checking signal...USD/JPY
+predicted: [1]
+--------
+USD/CAD
+checking signal...USD/CAD
+predicted: [1]
+--------
+EUR/JPY
+checking signal...EUR/JPY
+predicted: [1]
+--------
+GBP/CHF
+checking signal...GBP/CHF
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+predicted: [1]
+--------
+NZD/CHF
+checking signal...NZD/CHF
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+predicted: [1]
+--------
+GBP/USD
+checking signal...GBP/USD
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+predicted: [1]
+--------
+AUD/JPY
+checking signal...AUD/JPY
+predicted: [1]
+--------
+EUR/USD
+checking signal...EUR/USD
+predicted: [1]
+--------
+USD/CHF
+checking signal...USD/CHF
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+predicted: [1]
+--------
+EUR/GBP
+checking signal...EUR/GBP
+predicted: [1]
+--------
+GBP/CAD
+checking signal...GBP/CAD
+predicted: [1]
+--------
+GBP/JPY
+checking signal...GBP/JPY
+predicted: [1]
+--------
+AUD/CAD
+checking signal...AUD/CAD
+predicted: [1]
+--------
+AUD/NZD
+checking signal...AUD/NZD
+predicted: [1]
+--------
+CHF/JPY
+checking signal...CHF/JPY
+predicted: [1]
+--------
+AUD/USD
+checking signal...AUD/USD
+predicted: [1]
+--------
+NZD/USD
+checking signal...NZD/USD
+predicted: [1]
+--------
+EUR/AUD
+checking signal...EUR/AUD
+predicted: [1]
+--------
+EUR/CHF
+checking signal...EUR/CHF
+predicted: [1]
+--------
+EUR/NZD
+checking signal...EUR/NZD
+predicted: [1]
+--------
+GBP/AUD
+checking signal...GBP/AUD
+predicted: [0]
+Open False
+limit: 43.0
+Open GBP/AUD False Success
+--------
+GBP/NZD
+checking signal...GBP/NZD
+predicted: [1]
+--------
+CAD/JPY
+checking signal...CAD/JPY
+predicted: [1]
+--------
+Init finish
+-----------

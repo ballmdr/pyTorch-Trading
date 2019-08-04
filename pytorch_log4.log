@@ -1,0 +1,89 @@
+
+Connecting...
+Connect Success
+2019-08-02 11:31:44.405551
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [1]
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 13:32:38.120727
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [1]
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 14:29:42.943719
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [2]
+Open True
+limit: 30.0
+Open AUD/CAD True Success
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+awakening...
+get price for AUD/CAD
+Trade AUD/CAD
+2019-08-02 14:30:15.234419 Got new prices -> Predicted Signal...
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [1]
+-----------
+get price for EUR/GBP
+Trade EUR/GBP
+2019-08-02 14:30:17.467137 Got new prices -> Predicted Signal...
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+-----------
+get price for AUD/CHF
+Trade AUD/CHF
+2019-08-02 14:30:19.701392 Got new prices -> Predicted Signal...
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+-----------
+sleeping...

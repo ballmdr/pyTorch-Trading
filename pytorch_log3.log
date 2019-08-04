@@ -1,0 +1,741 @@
+
+Connecting...
+Connect Success
+2019-08-02 11:32:03.860538
+Close all Success
+USD/JPY
+Not open new position
+--------
+USD/CAD
+Not open new position
+--------
+EUR/JPY
+Not open new position
+--------
+GBP/CHF
+Not open new position
+--------
+NZD/CAD
+Not open new position
+--------
+NZD/CHF
+Not open new position
+--------
+CAD/CHF
+Not open new position
+--------
+GBP/USD
+Not open new position
+--------
+AUD/CHF
+Not open new position
+--------
+AUD/JPY
+Not open new position
+--------
+EUR/USD
+Not open new position
+--------
+USD/CHF
+Not open new position
+--------
+EUR/CAD
+Not open new position
+--------
+EUR/GBP
+Not open new position
+--------
+GBP/CAD
+Not open new position
+--------
+GBP/JPY
+Not open new position
+--------
+AUD/CAD
+Not open new position
+--------
+AUD/NZD
+Not open new position
+--------
+CHF/JPY
+Not open new position
+--------
+AUD/USD
+Not open new position
+--------
+NZD/USD
+Not open new position
+--------
+EUR/AUD
+Not open new position
+--------
+EUR/CHF
+Not open new position
+--------
+EUR/NZD
+Connecting...
+Connect Success
+2019-08-02 11:33:42.065180
+Close all Success
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+USD/CAD
+checking signal...USD/CAD
+load file: model/torch_USDCAD_m30
+predicted: [1]
+--------
+EUR/JPY
+checking signal...EUR/JPY
+load file: model/torch_EURJPY_m30
+predicted: [1]
+--------
+GBP/CHF
+checking signal...GBP/CHF
+load file: model/torch_GBPCHF_m30
+predicted: [0]
+Can open
+Open False
+limit: 30.0
+Open GBP/CHF False Success
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+NZD/CHF
+checking signal...NZD/CHF
+load file: model/torch_NZDCHF_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [1]
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+AUD/JPY
+checking signal...AUD/JPY
+load file: model/torch_AUDJPY_m30
+predicted: [1]
+--------
+EUR/USD
+checking signal...EUR/USD
+load file: model/torch_EURUSD_m30
+predicted: [0]
+Can open
+Open False
+limit: 30.0
+Open EUR/USD False Success
+--------
+USD/CHF
+checking signal...USD/CHF
+load file: model/torch_USDCHF_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [0]
+Can open
+Open False
+limit: 38.0
+Open EUR/CAD False Success
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+GBP/CAD
+checking signal...GBP/CAD
+load file: model/torch_GBPCAD_m30
+predicted: [1]
+--------
+GBP/JPY
+checking signal...GBP/JPY
+load file: model/torch_GBPJPY_m30
+predicted: [0]
+Can open
+Open False
+limit: 33.0
+Open GBP/JPY False Success
+--------
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [1]
+--------
+AUD/NZD
+checking signal...AUD/NZD
+load file: model/torch_AUDNZD_m30
+predicted: [1]
+--------
+CHF/JPY
+checking signal...CHF/JPY
+load file: model/torch_CHFJPY_m30
+predicted: [0]
+Can open
+Open False
+limit: 33.0
+Open CHF/JPY False Success
+--------
+AUD/USD
+checking signal...AUD/USD
+load file: model/torch_AUDUSD_m30
+predicted: [1]
+--------
+NZD/USD
+checking signal...NZD/USD
+load file: model/torch_NZDUSD_m30
+predicted: [1]
+--------
+EUR/AUD
+checking signal...EUR/AUD
+load file: model/torch_EURAUD_m30
+predicted: [0]
+Can open
+Open False
+limit: 43.0
+Open EUR/AUD False Success
+--------
+EUR/CHF
+checking signal...EUR/CHF
+load file: model/torch_EURCHF_m30
+predicted: [0]
+Can open
+Open False
+limit: 30.0
+Open EUR/CHF False Success
+--------
+EUR/NZD
+checking signal...EUR/NZD
+load file: model/torch_EURNZD_m30
+predicted: [1]
+--------
+GBP/AUD
+checking signal...GBP/AUD
+load file: model/torch_GBPAUD_m30
+predicted: [1]
+--------
+GBP/NZD
+checking signal...GBP/NZD
+load file: model/torch_GBPNZD_m30
+predicted: [1]
+--------
+CAD/JPY
+checking signal...CAD/JPY
+load file: model/torch_CADJPY_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 13:26:55.555927
+Close all Success
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+USD/CAD
+checking signal...USD/CAD
+load file: model/torch_USDCAD_m30
+predicted: [1]
+--------
+EUR/JPY
+checking signal...EUR/JPY
+load file: model/torch_EURJPY_m30
+predicted: [1]
+--------
+GBP/CHF
+checking signal...GBP/CHF
+load file: model/torch_GBPCHF_m30
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+NZD/CHF
+checking signal...NZD/CHF
+load file: model/torch_NZDCHF_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [0]
+Can open
+Open False
+limit: 30.0
+Open GBP/USD False Success
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+AUD/JPY
+checking signal...AUD/JPY
+load file: model/torch_AUDJPY_m30
+predicted: [1]
+--------
+EUR/USD
+checking signal...EUR/USD
+load file: model/torch_EURUSD_m30
+predicted: [1]
+--------
+USD/CHF
+checking signal...USD/CHF
+load file: model/torch_USDCHF_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [1]
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+GBP/CAD
+checking signal...GBP/CAD
+load file: model/torch_GBPCAD_m30
+predicted: [1]
+--------
+GBP/JPY
+checking signal...GBP/JPY
+load file: model/torch_GBPJPY_m30
+predicted: [1]
+--------
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [0]
+Can open
+Open False
+limit: 38.0
+Open AUD/CAD False Success
+--------
+AUD/NZD
+checking signal...AUD/NZD
+load file: model/torch_AUDNZD_m30
+predicted: [1]
+--------
+CHF/JPY
+checking signal...CHF/JPY
+load file: model/torch_CHFJPY_m30
+predicted: [1]
+--------
+AUD/USD
+checking signal...AUD/USD
+load file: model/torch_AUDUSD_m30
+predicted: [1]
+--------
+NZD/USD
+checking signal...NZD/USD
+load file: model/torch_NZDUSD_m30
+predicted: [1]
+--------
+EUR/AUD
+checking signal...EUR/AUD
+load file: model/torch_EURAUD_m30
+predicted: [1]
+--------
+EUR/CHF
+checking signal...EUR/CHF
+load file: model/torch_EURCHF_m30
+predicted: [1]
+--------
+EUR/NZD
+checking signal...EUR/NZD
+load file: model/torch_EURNZD_m30
+predicted: [1]
+--------
+GBP/AUD
+checking signal...GBP/AUD
+load file: model/torch_GBPAUD_m30
+predicted: [1]
+--------
+GBP/NZD
+checking signal...GBP/NZD
+load file: model/torch_GBPNZD_m30
+predicted: [1]
+--------
+CAD/JPY
+checking signal...CAD/JPY
+load file: model/torch_CADJPY_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+awakening...
+get price for USD/JPY
+Trade USD/JPY
+2019-08-02 13:30:20.291778 Got new prices -> Predicted Signal...
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+-----------
+get price for USD/CAD
+Trade USD/CAD
+2019-08-02 13:30:22.959416 Got new prices -> Predicted Signal...
+checking signal...USD/CAD
+load file: model/torch_USDCAD_m30
+predicted: [1]
+-----------
+get price for EUR/JPY
+Trade EUR/JPY
+2019-08-02 13:30:25.559022 Got new prices -> Predicted Signal...
+checking signal...EUR/JPY
+load file: model/torch_EURJPY_m30
+predicted: [1]
+-----------
+get price for GBP/CHF
+Trade GBP/CHF
+2019-08-02 13:30:28.096998 Got new prices -> Predicted Signal...
+checking signal...GBP/CHF
+load file: model/torch_GBPCHF_m30
+predicted: [1]
+-----------
+get price for NZD/CAD
+Trade NZD/CAD
+2019-08-02 13:30:30.529122 Got new prices -> Predicted Signal...
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+-----------
+get price for NZD/CHF
+Trade NZD/CHF
+2019-08-02 13:30:33.237055 Got new prices -> Predicted Signal...
+checking signal...NZD/CHF
+load file: model/torch_NZDCHF_m30
+predicted: [1]
+-----------
+get price for CAD/CHF
+Trade CAD/CHF
+2019-08-02 13:30:35.901851 Got new prices -> Predicted Signal...
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+-----------
+get price for GBP/USD
+Trade GBP/USD
+2019-08-02 13:30:38.772604 Got new prices -> Predicted Signal...
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [1]
+-----------
+get price for AUD/CHF
+Trade AUD/CHF
+2019-08-02 13:30:41.638284 Got new prices -> Predicted Signal...
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+-----------
+get price for AUD/JPY
+Trade AUD/JPY
+2019-08-02 13:30:44.626560 Got new prices -> Predicted Signal...
+checking signal...AUD/JPY
+load file: model/torch_AUDJPY_m30
+predicted: [1]
+-----------
+get price for EUR/USD
+Trade EUR/USD
+2019-08-02 13:30:47.175665 Got new prices -> Predicted Signal...
+checking signal...EUR/USD
+load file: model/torch_EURUSD_m30
+predicted: [1]
+-----------
+get price for USD/CHF
+Trade USD/CHF
+2019-08-02 13:30:49.789499 Got new prices -> Predicted Signal...
+checking signal...USD/CHF
+load file: model/torch_USDCHF_m30
+predicted: [1]
+-----------
+get price for EUR/CAD
+Trade EUR/CAD
+2019-08-02 13:30:52.397835 Got new prices -> Predicted Signal...
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [1]
+-----------
+get price for EUR/GBP
+Trade EUR/GBP
+2019-08-02 13:30:54.781972 Got new prices -> Predicted Signal...
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+-----------
+get price for GBP/CAD
+Trade GBP/CAD
+2019-08-02 13:30:57.420142 Got new prices -> Predicted Signal...
+checking signal...GBP/CAD
+load file: model/torch_GBPCAD_m30
+predicted: [1]
+-----------
+get price for GBP/JPY
+Trade GBP/JPY
+2019-08-02 13:31:00.074779 Got new prices -> Predicted Signal...
+checking signal...GBP/JPY
+load file: model/torch_GBPJPY_m30
+predicted: [1]
+-----------
+get price for AUD/CAD
+Trade AUD/CAD
+2019-08-02 13:31:02.604186 Got new prices -> Predicted Signal...
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [2]
+Symbol Exists
+position sell, not breakeven yet!
+-----------
+get price for AUD/NZD
+Trade AUD/NZD
+2019-08-02 13:31:05.147763 Got new prices -> Predicted Signal...
+checking signal...AUD/NZD
+load file: model/torch_AUDNZD_m30
+predicted: [1]
+-----------
+get price for CHF/JPY
+Trade CHF/JPY
+2019-08-02 13:31:07.789972 Got new prices -> Predicted Signal...
+checking signal...CHF/JPY
+load file: model/torch_CHFJPY_m30
+predicted: [1]
+-----------
+get price for AUD/USD
+Trade AUD/USD
+2019-08-02 13:31:10.608200 Got new prices -> Predicted Signal...
+checking signal...AUD/USD
+load file: model/torch_AUDUSD_m30
+predicted: [1]
+-----------
+get price for NZD/USD
+Trade NZD/USD
+2019-08-02 13:31:13.229409 Got new prices -> Predicted Signal...
+checking signal...NZD/USD
+load file: model/torch_NZDUSD_m30
+predicted: [1]
+-----------
+get price for EUR/AUD
+Trade EUR/AUD
+2019-08-02 13:31:15.921567 Got new prices -> Predicted Signal...
+checking signal...EUR/AUD
+load file: model/torch_EURAUD_m30
+predicted: [1]
+-----------
+get price for EUR/CHF
+Trade EUR/CHF
+2019-08-02 13:31:18.611614 Got new prices -> Predicted Signal...
+checking signal...EUR/CHF
+load file: model/torch_EURCHF_m30
+predicted: [1]
+-----------
+get price for EUR/NZD
+Trade EUR/NZD
+2019-08-02 13:31:21.170686 Got new prices -> Predicted Signal...
+checking signal...EUR/NZD
+load file: model/torch_EURNZD_m30
+predicted: [1]
+-----------
+get price for GBP/AUD
+Trade GBP/AUD
+2019-08-02 13:31:23.759353 Got new prices -> Predicted Signal...
+checking signal...GBP/AUD
+load file: model/torch_GBPAUD_m30
+predicted: [1]
+-----------
+get price for GBP/NZD
+Trade GBP/NZD
+2019-08-02 13:31:26.291506 Got new prices -> Predicted Signal...
+checking signal...GBP/NZD
+load file: model/torch_GBPNZD_m30
+predicted: [1]
+-----------
+get price for CAD/JPY
+Trade CAD/JPY
+2019-08-02 13:31:28.818576 Got new prices -> Predicted Signal...
+checking signal...CAD/JPY
+load file: model/torch_CADJPY_m30
+predicted: [1]
+-----------
+sleeping...
+Connecting...
+Connect Success
+2019-08-02 14:29:12.580431
+Close all Success
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+USD/CAD
+checking signal...USD/CAD
+load file: model/torch_USDCAD_m30
+predicted: [1]
+--------
+EUR/JPY
+checking signal...EUR/JPY
+load file: model/torch_EURJPY_m30
+predicted: [1]
+--------
+GBP/CHF
+checking signal...GBP/CHF
+load file: model/torch_GBPCHF_m30
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+NZD/CHF
+checking signal...NZD/CHF
+load file: model/torch_NZDCHF_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [2]
+Can open
+Open True
+limit: 30.0
+Open GBP/USD True Success
+--------
+AUD/CHF
+checking signal...AUD/CHF
+load file: model/torch_AUDCHF_m30
+predicted: [1]
+--------
+AUD/JPY
+checking signal...AUD/JPY
+load file: model/torch_AUDJPY_m30
+predicted: [2]
+Can open
+Open True
+limit: 33.0
+Open AUD/JPY True Success
+--------
+EUR/USD
+checking signal...EUR/USD
+load file: model/torch_EURUSD_m30
+predicted: [2]
+Can open
+Open True
+limit: 30.0
+Open EUR/USD True Success
+--------
+USD/CHF
+checking signal...USD/CHF
+load file: model/torch_USDCHF_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [1]
+--------
+EUR/GBP
+checking signal...EUR/GBP
+load file: model/torch_EURGBP_m30
+predicted: [1]
+--------
+GBP/CAD
+checking signal...GBP/CAD
+load file: model/torch_GBPCAD_m30
+predicted: [1]
+--------
+GBP/JPY
+checking signal...GBP/JPY
+load file: model/torch_GBPJPY_m30
+predicted: [1]
+--------
+AUD/CAD
+checking signal...AUD/CAD
+load file: model/torch_AUDCAD_m30
+predicted: [1]
+--------
+AUD/NZD
+checking signal...AUD/NZD
+load file: model/torch_AUDNZD_m30
+predicted: [1]
+--------
+CHF/JPY
+checking signal...CHF/JPY
+load file: model/torch_CHFJPY_m30
+predicted: [1]
+--------
+AUD/USD
+checking signal...AUD/USD
+load file: model/torch_AUDUSD_m30
+predicted: [1]
+--------
+NZD/USD
+checking signal...NZD/USD
+load file: model/torch_NZDUSD_m30
+predicted: [1]
+--------
+EUR/AUD
+checking signal...EUR/AUD
+load file: model/torch_EURAUD_m30
+predicted: [1]
+--------
+EUR/CHF
+checking signal...EUR/CHF
+load file: model/torch_EURCHF_m30
+predicted: [1]
+--------
+EUR/NZD
+checking signal...EUR/NZD
+load file: model/torch_EURNZD_m30
+predicted: [1]
+--------
+GBP/AUD
+checking signal...GBP/AUD
+load file: model/torch_GBPAUD_m30
+predicted: [1]
+--------
+GBP/NZD
+checking signal...GBP/NZD
+load file: model/torch_GBPNZD_m30
+predicted: [1]
+--------
+CAD/JPY
+checking signal...CAD/JPY
+load file: model/torch_CADJPY_m30
+predicted: [1]
+--------
+Init finish
+-----------

@@ -1,0 +1,126 @@
+
+Connecting...
+Connect Success
+2019-08-02 11:31:58.025606
+Close all Success
+GBP/USD
+Not open new position
+--------
+USD/JPY
+Not open new position
+--------
+EUR/CAD
+Not open new position
+--------
+NZD/CAD
+Not open new position
+--------
+CAD/CHF
+Not open new position
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 11:34:04.296058
+Close all Success
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [1]
+--------
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [0]
+Can open
+Open False
+limit: 30.0
+Open EUR/CAD False Success
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 13:34:16.015072
+Close all Success
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [1]
+--------
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-02 14:29:57.638594
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [2]
+Can open
+Open True
+limit: 30.0
+Open GBP/USD True Success
+--------
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [2]
+Can open
+Open True
+limit: 38.0
+Open EUR/CAD True Success
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [1]
+--------
+Init finish
+-----------

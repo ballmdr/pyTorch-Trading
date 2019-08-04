@@ -1,0 +1,162 @@
+|ERROR|2019-07-25 22:32:56,893|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:32:56,893|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:32:56,894|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Offer
+|ERROR|2019-07-25 22:32:56,894|URL: https://api-demo.fxcm.com:443/trading/get_instruments
+|ERROR|2019-07-25 22:32:56,894|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer BiLiZ4-Mln9klDDfAEpYf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-25 22:32:56,894|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-25 22:32:56,895|Params: {'models': ['Offer']}
+|ERROR|2019-07-25 22:32:56,895|Params: {}
+|ERROR|2019-07-25 22:32:56,896|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:32:56,896|Bearer token: Bearer BiLiZ4-Mln9klDDfAEpYf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-25 22:32:56,896|Connection status: established
+|ERROR|2019-07-25 22:32:56,896|Connection status: established
+|ERROR|2019-07-25 22:32:56,897|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:32:56,897|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:32:56,897|Socket session id: BiLiZ4-Mln9klDDfAEpY
+|ERROR|2019-07-25 22:32:56,898|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:32:58,663|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:32:58,664|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-07-25 22:32:58,664|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '12'}
+|ERROR|2019-07-25 22:32:58,664|Params: {'models': 'Order'}
+|ERROR|2019-07-25 22:32:58,664|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:32:58,664|Connection status: established
+|ERROR|2019-07-25 22:32:58,664|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:32:58,664|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:33:00,577|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:33:00,578|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-07-25 22:33:00,578|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '19'}
+|ERROR|2019-07-25 22:33:00,578|Params: {'models': 'OpenPosition'}
+|ERROR|2019-07-25 22:33:00,579|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:33:00,579|Connection status: established
+|ERROR|2019-07-25 22:33:00,580|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:33:00,580|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:33:02,905|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:33:02,905|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-07-25 22:33:02,906|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '21'}
+|ERROR|2019-07-25 22:33:02,906|Params: {'models': 'ClosedPosition'}
+|ERROR|2019-07-25 22:33:02,906|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:33:02,906|Connection status: established
+|ERROR|2019-07-25 22:33:02,906|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:33:02,906|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:33:06,720|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:33:06,720|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-07-25 22:33:06,720|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '171'}
+|ERROR|2019-07-25 22:33:06,721|Params: {'account_id': 1041561, 'symbol': 'EUR/USD', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 30.0, 'is_in_pips': 'true', 'stop': -10.0, 'trailing_step': 1}
+|ERROR|2019-07-25 22:33:06,721|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:33:06,721|Connection status: established
+|ERROR|2019-07-25 22:33:06,721|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:33:06,721|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-25 22:33:10,328|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-25 22:33:10,328|URL: https://api-demo.fxcm.com:443/candles/4/m30?num=16
+|ERROR|2019-07-25 22:33:10,328|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-25 22:33:10,328|Params: {'num': 16}
+|ERROR|2019-07-25 22:33:10,328|Bearer token: Bearer T6320_Vbdc9-bUSBAEpU82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-25 22:33:10,328|Connection status: established
+|ERROR|2019-07-25 22:33:10,328|Socket session id: T6320_Vbdc9-bUSBAEpU
+|ERROR|2019-07-25 22:33:10,328|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 13:03:26,753|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 13:03:26,759|URL: https://api-demo.fxcm.com:443/candles/6/m30?num=16
+|ERROR|2019-07-26 13:03:26,760|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 3QdZQU-bFSAwOtIZAAjIf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 13:03:26,760|Params: {'num': 16}
+|ERROR|2019-07-26 13:03:26,760|Bearer token: Bearer 3QdZQU-bFSAwOtIZAAjIf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 13:03:26,760|Connection status: established
+|ERROR|2019-07-26 13:03:26,760|Socket session id: 3QdZQU-bFSAwOtIZAAjI
+|ERROR|2019-07-26 13:03:26,760|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 13:03:28,457|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 13:03:28,457|URL: https://api-demo.fxcm.com:443/candles/8/m30?num=16
+|ERROR|2019-07-26 13:03:28,457|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 3QdZQU-bFSAwOtIZAAjIf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 13:03:28,457|Params: {'num': 16}
+|ERROR|2019-07-26 13:03:28,457|Bearer token: Bearer 3QdZQU-bFSAwOtIZAAjIf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 13:03:28,458|Connection status: established
+|ERROR|2019-07-26 13:03:28,458|Socket session id: 3QdZQU-bFSAwOtIZAAjI
+|ERROR|2019-07-26 13:03:28,458|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 13:30:01,952|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 13:30:01,953|URL: https://api-demo.fxcm.com:443/candles/2/m30?num=16
+|ERROR|2019-07-26 13:30:01,953|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer BvO-geJvwbxkSd7QAAXJ82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 13:30:01,953|Params: {'num': 16}
+|ERROR|2019-07-26 13:30:01,954|Bearer token: Bearer BvO-geJvwbxkSd7QAAXJ82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-26 13:30:01,954|Connection status: established
+|ERROR|2019-07-26 13:30:01,955|Socket session id: BvO-geJvwbxkSd7QAAXJ
+|ERROR|2019-07-26 13:30:01,955|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 16:20:19,475|Unknown instrument: ,EUR/NZD
+|ERROR|2019-07-26 16:20:22,576|Unknown instrument: ,EUR/NZD
+|ERROR|2019-07-26 19:31:36,487|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:36,493|URL: https://api-demo.fxcm.com:443/candles/90/m30?num=16
+|ERROR|2019-07-26 19:31:36,493|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:36,493|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:36,493|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:36,494|Connection status: established
+|ERROR|2019-07-26 19:31:36,494|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:36,494|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:36,778|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:36,778|URL: https://api-demo.fxcm.com:443/candles/90/m30?num=16
+|ERROR|2019-07-26 19:31:36,778|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:36,778|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:36,779|Bearer token: Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-26 19:31:36,779|Connection status: established
+|ERROR|2019-07-26 19:31:36,779|Socket session id: mZE-Zguf4iKx2yasABVS
+|ERROR|2019-07-26 19:31:36,779|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:37,846|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:37,847|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-07-26 19:31:37,847|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '171'}
+|ERROR|2019-07-26 19:31:37,847|Params: {'account_id': 3295778, 'symbol': 'CAD/CHF', 'is_buy': 'true', 'rate': 0.0, 'amount': 1, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 20.0, 'is_in_pips': 'true', 'stop': -10.0, 'trailing_step': 1}
+|ERROR|2019-07-26 19:31:37,847|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:37,847|Connection status: established
+|ERROR|2019-07-26 19:31:37,847|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:37,847|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2019-07-26 19:31:40,117|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:40,117|URL: https://api-demo.fxcm.com:443/candles/3/m30?num=16
+|ERROR|2019-07-26 19:31:40,117|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:40,117|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:40,117|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:40,117|Connection status: established
+|ERROR|2019-07-26 19:31:40,117|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:40,117|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:41,062|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:41,063|URL: https://api-demo.fxcm.com:443/candles/90/m30?num=16
+|ERROR|2019-07-26 19:31:41,063|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:41,063|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:41,063|Bearer token: Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-26 19:31:41,063|Connection status: established
+|ERROR|2019-07-26 19:31:41,063|Socket session id: mZE-Zguf4iKx2yasABVS
+|ERROR|2019-07-26 19:31:41,063|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:44,355|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:44,356|URL: https://api-demo.fxcm.com:443/candles/3/m30?num=16
+|ERROR|2019-07-26 19:31:44,356|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:44,356|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:44,356|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:44,356|Connection status: established
+|ERROR|2019-07-26 19:31:44,356|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:44,356|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:45,422|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:45,423|URL: https://api-demo.fxcm.com:443/candles/90/m30?num=16
+|ERROR|2019-07-26 19:31:45,423|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:45,423|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:45,423|Bearer token: Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-26 19:31:45,423|Connection status: established
+|ERROR|2019-07-26 19:31:45,423|Socket session id: mZE-Zguf4iKx2yasABVS
+|ERROR|2019-07-26 19:31:45,423|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:48,743|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:48,744|URL: https://api-demo.fxcm.com:443/candles/3/m30?num=16
+|ERROR|2019-07-26 19:31:48,744|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:48,744|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:48,744|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:48,744|Connection status: established
+|ERROR|2019-07-26 19:31:48,744|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:48,744|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:49,909|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:49,909|URL: https://api-demo.fxcm.com:443/candles/90/m30?num=16
+|ERROR|2019-07-26 19:31:49,909|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:49,909|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:49,909|Bearer token: Bearer mZE-Zguf4iKx2yasABVS82e41ea2bcf020754f67aeb835e9ad617dbc5427
+|ERROR|2019-07-26 19:31:49,909|Connection status: established
+|ERROR|2019-07-26 19:31:49,909|Socket session id: mZE-Zguf4iKx2yasABVS
+|ERROR|2019-07-26 19:31:49,909|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
+|ERROR|2019-07-26 19:31:52,907|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-07-26 19:31:52,907|URL: https://api-demo.fxcm.com:443/candles/3/m30?num=16
+|ERROR|2019-07-26 19:31:52,907|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-07-26 19:31:52,907|Params: {'num': 16}
+|ERROR|2019-07-26 19:31:52,907|Bearer token: Bearer bUupw_K-GCi6MiN6ABVRf5ed61e3d269bf4f54000c513e18592fd383379b
+|ERROR|2019-07-26 19:31:52,907|Connection status: established
+|ERROR|2019-07-26 19:31:52,907|Socket session id: bUupw_K-GCi6MiN6ABVR
+|ERROR|2019-07-26 19:31:52,907|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"},"instrument_id":0,"period_id":0,"candles":[]}.
