@@ -1,0 +1,68 @@
+|ERROR|2019-08-04 10:43:13,570|Unknown instrument: None
+|INFO|2019-08-04 10:43:13,653|127.0.0.1 - - [04/Aug/2019 10:43:13] "[1m[35mPOST /predict HTTP/1.1[0m" 500 -
+|ERROR|2019-08-04 10:44:34,673|Unknown instrument: None
+|INFO|2019-08-04 10:44:34,820|127.0.0.1 - - [04/Aug/2019 10:44:34] "[1m[35mPOST /predict HTTP/1.1[0m" 500 -
+|ERROR|2019-08-04 11:47:08,097|Unknown instrument: None
+|INFO|2019-08-04 11:47:08,113|127.0.0.1 - - [04/Aug/2019 11:47:08] "[1m[35mPOST /predict HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 11:47:15,176| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 11:51:39,955| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 11:52:17,855| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|ERROR|2019-08-04 11:52:56,108|Unknown instrument: None
+|INFO|2019-08-04 11:52:56,192|127.0.0.1 - - [04/Aug/2019 11:52:56] "[1m[35mGET /predict?symbol=EURUSD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 11:53:12,726| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|ERROR|2019-08-04 13:55:12,452|Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/ballmdr/torch/Flask_server/app.py", line 114, in predict
+    x = getImg(df)
+  File "/Users/ballmdr/torch/Flask_server/app.py", line 76, in getImg
+    p['ma5'] = np.round(p.close.rolling(5).mean(), 5)
+  File "/anaconda3/lib/python3.7/site-packages/pandas/core/generic.py", line 5067, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'close'
+|INFO|2019-08-04 13:55:12,458|127.0.0.1 - - [04/Aug/2019 13:55:12] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 13:56:31,789|127.0.0.1 - - [04/Aug/2019 13:56:31] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:00:42,481| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:01:17,668|127.0.0.1 - - [04/Aug/2019 14:01:17] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:01:29,574| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:02:00,718|127.0.0.1 - - [04/Aug/2019 14:02:00] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:02:27,936| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:04:09,222|127.0.0.1 - - [04/Aug/2019 14:04:09] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:04:33,962| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:05:24,434|127.0.0.1 - - [04/Aug/2019 14:05:24] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:06:11,036| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:06:40,113|127.0.0.1 - - [04/Aug/2019 14:06:40] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:08:22,836| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:08:54,600|127.0.0.1 - - [04/Aug/2019 14:08:54] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:09:50,637| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:11:13,596| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:11:47,603|127.0.0.1 - - [04/Aug/2019 14:11:47] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:12:32,487| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:12:55,192|127.0.0.1 - - [04/Aug/2019 14:12:55] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:13:53,766| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:15:05,847|127.0.0.1 - - [04/Aug/2019 14:15:05] "[1m[35mGET /predict?s=EUR/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:15:08,899| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:16:38,599|127.0.0.1 - - [04/Aug/2019 14:16:38] "[37mGET /predict?s=EUR/USD HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:17:28,711|127.0.0.1 - - [04/Aug/2019 14:17:28] "[37mGET /predict?s=EUR/USD HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:17:31,924| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:18:38,560|127.0.0.1 - - [04/Aug/2019 14:18:38] "[1m[35mGET /predict?s=GBP/USD HTTP/1.1[0m" 500 -
+|INFO|2019-08-04 14:18:53,731| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:19:26,314|127.0.0.1 - - [04/Aug/2019 14:19:26] "[37mGET /predict?s=GBP/USD HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:19:50,684|127.0.0.1 - - [04/Aug/2019 14:19:50] "[37mGET /predict?s=AUD/USD HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:20:15,051|127.0.0.1 - - [04/Aug/2019 14:20:15] "[37mGET /predict?s=USD/JPY HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:20:40,966|127.0.0.1 - - [04/Aug/2019 14:20:40] "[37mGET /predict?s=CAD/JPY HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:21:05,550|127.0.0.1 - - [04/Aug/2019 14:21:05] "[37mGET /predict?s=USD/CAD HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:21:29,643|127.0.0.1 - - [04/Aug/2019 14:21:29] "[37mGET /predict?s=USD/CHF HTTP/1.1[0m" 200 -
+|INFO|2019-08-04 14:34:04,682| * Detected change in '/Users/ballmdr/torch/Flask_server/app.py', reloading
+|INFO|2019-08-04 14:34:28,599|127.0.0.1 - - [04/Aug/2019 14:34:28] "[37mGET /predict?s=USD/CHF HTTP/1.1[0m" 200 -

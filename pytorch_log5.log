@@ -124,3 +124,45 @@ predicted: [1]
 --------
 Init finish
 -----------
+Connecting...
+Connect Success
+2019-08-04 09:45:46.482290
+GBP/USD
+checking signal...GBP/USD
+load file: model/torch_GBPUSD_m30
+predicted: [1]
+--------
+USD/JPY
+checking signal...USD/JPY
+load file: model/torch_USDJPY_m30
+predicted: [1]
+--------
+EUR/CAD
+checking signal...EUR/CAD
+load file: model/torch_EURCAD_m30
+predicted: [1]
+--------
+NZD/CAD
+checking signal...NZD/CAD
+load file: model/torch_NZDCAD_m30
+predicted: [1]
+--------
+CAD/CHF
+checking signal...CAD/CHF
+load file: model/torch_CADCHF_m30
+predicted: [2]
+Symbol Exists
+position buy, not breakeven yet!
+--------
+Init finish
+-----------
+Connecting...
+Connect Success
+2019-08-04 09:59:57.377677
+GBP/USD
+checking signal...GBP/USD
+Connecting...
+Connect Success
+2019-08-04 10:04:34.469936
+GBP/USD
+checking signal...GBP/USD

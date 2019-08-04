@@ -1,5 +1,5 @@
 import torch
-from torch import nn
+from Flask_server.torch_model import resnet18
 import torch.nn.functional as F
 import time
 import signal
@@ -14,133 +14,9 @@ import skimage as sk
 from skimage.transform import resize
 register_matplotlib_converters()
 
-##########################
-### MODEL
-##########################
-
-
-def conv3x3(in_planes, out_planes, stride=1):
-    """3x3 convolution with padding"""
-    return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
-                     padding=1, bias=False)
-
-
-class BasicBlock(nn.Module):
-    expansion = 1
-
-    def __init__(self, inplanes, planes, stride=1, downsample=None):
-        super(BasicBlock, self).__init__()
-        self.conv1 = conv3x3(inplanes, planes, stride)
-        self.bn1 = nn.BatchNorm2d(planes)
-        self.relu = nn.ReLU(inplace=True)
-        self.conv2 = conv3x3(planes, planes)
-        self.bn2 = nn.BatchNorm2d(planes)
-        self.downsample = downsample
-        self.stride = stride
-
-    def forward(self, x):
-        residual = x
-
-        out = self.conv1(x)
-        out = self.bn1(out)
-        out = self.relu(out)
-
-        out = self.conv2(out)
-        out = self.bn2(out)
-
-        if self.downsample is not None:
-            residual = self.downsample(x)
-
-        out += residual
-        out = self.relu(out)
-
-        return out
-
-
-class ResNet(nn.Module):
-
-    def __init__(self, block, layers, num_classes, grayscale):
-        self.inplanes = 16
-        if grayscale:
-            in_dim = 1
-        else:
-            in_dim = 4
-        super(ResNet, self).__init__()
-        self.conv1 = nn.Conv2d(in_dim, 16, kernel_size=7, stride=2, padding=3,
-                               bias=False)
-        self.bn1 = nn.BatchNorm2d(16)
-        self.relu = nn.ReLU(inplace=True)
-        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
-        self.layer1 = self._make_layer(block, 32, layers[0])
-        self.layer2 = self._make_layer(block, 64, layers[1], stride=2)
-        self.layer3 = self._make_layer(block, 128, layers[2], stride=2)
-        self.layer4 = self._make_layer(block, 256, layers[3], stride=2)
-        self.avgpool = nn.AvgPool2d(7, stride=1, padding=2)
-        self.fc = nn.Linear((256*2*3) * block.expansion, num_classes)
-
-        for m in self.modules():
-            if isinstance(m, nn.Conv2d):
-                n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
-                m.weight.data.normal_(0, (2. / n)**.5)
-            elif isinstance(m, nn.BatchNorm2d):
-                m.weight.data.fill_(1)
-                m.bias.data.zero_()
-
-    def _make_layer(self, block, planes, blocks, stride=1):
-        downsample = None
-        if stride != 1 or self.inplanes != planes * block.expansion:
-            downsample = nn.Sequential(
-                nn.Conv2d(self.inplanes, planes * block.expansion,
-                          kernel_size=1, stride=stride, bias=False),
-                nn.BatchNorm2d(planes * block.expansion),
-            )
-
-        layers = []
-        layers.append(block(self.inplanes, planes, stride, downsample))
-        self.inplanes = planes * block.expansion
-        for i in range(1, blocks):
-            layers.append(block(self.inplanes, planes))
-
-        return nn.Sequential(*layers)
-
-    def forward(self, x):
-        x = self.conv1(x)
-        x = self.bn1(x)
-        x = self.relu(x)
-        x = self.maxpool(x)
-
-        x = F.dropout(x)
-
-        x = self.layer1(x)
-        x = F.dropout(x)
-        x = self.layer2(x)
-        x = F.dropout(x)
-        x = self.layer3(x)
-        x = F.dropout(x)
-        x = self.layer4(x)
-
-        x = self.avgpool(x)
-        x = F.dropout(x)
-        #print(x.size())
-        x = x.view(x.size(0), -1)
-        logits = self.fc(x)
-        x = F.dropout(x)
-
-        return logits
-
-
-def resnet18(num_classes):
-    """Constructs a ResNet-18 model."""
-    model = ResNet(block=BasicBlock,
-                   layers=[2, 2, 2, 2],
-                   num_classes=num_classes,
-                   grayscale=False)
-    return model
-
 def handler(signum, frame):
     print('handler')
     raise Exception('Action took too much time')
-
 
 def getNewPrice():
     global price, con
@@ -184,64 +60,6 @@ def getNewPrice():
     else:
         return False
 
-
-def predictSignal():
-    global model
-
-    with torch.no_grad():
-        weight_file = 'model/torch_' + symbol + '_m30'
-        writeLog('load file: ' + weight_file)
-        model.load_state_dict(torch.load(weight_file, map_location='cpu'))
-        x = getImg()
-        xt = np.transpose(x, (0, 3, 1, 2))
-        xt_tensor = torch.tensor(xt, dtype=torch.float32, device=device)
-        logits = model(xt_tensor)
-        logits_pred = F.softmax(logits, dim=1)
-        pred = logits_pred.cpu().detach().numpy().argmax(1)
-
-    #print('predicted: ', pred)
-    writeLog('predicted: ' + str(pred))
-
-    if pred == 2:
-        return True
-    elif pred == 0:
-        return False
-    else:
-        return None
-
-
-def getImg():
-    p = price[symbol]
-    p['close'] = np.round((p.bidclose + p.askclose) / 2, 5)
-    p['ma5'] = np.round(p.close.rolling(5).mean(), 5)
-    p['ma7'] = np.round(p.close.rolling(7).mean(), 5)
-    p['ma10'] = np.round(p.close.rolling(10).mean(), 5)
-    p.dropna(inplace=True)
-    fig = plt.figure(frameon=False)
-    fig.set_size_inches(3,2)
-    ax = plt.Axes(fig, [0., 0., 1., 1.])
-    ax.set_axis_off()
-    fig.add_axes(ax)
-    _df = p.iloc[0:windows]
-    plt.plot(_df.ma5, color='red')
-    plt.plot(_df.ma7, color='blue')
-    plt.plot(_df.ma10, color='green')
-    #plt.plot(p.close)
-    plt.savefig(img_path)
-    #plt.show()
-    plt.close()
-
-    x = plt.imread(img_path)
-    new_img = resize(x, (100,150))
-    x = np.array([new_img], np.float32) / 255
-    return x
-
-def writeLog(msg):
-    print(msg)
-    file = open(mylog_path, 'a')
-    file.write('\n')
-    file.write(msg)
-    file.close()
 
 def connect():
     con_success = False
@@ -421,6 +239,65 @@ def checkProfit():
         close_all_success = False
         while not close_all_success:
             close_all_success = closeAllPos()
+
+
+def writeLog(msg):
+    print(msg)
+    file = open(mylog_path, 'a')
+    file.write('\n')
+    file.write(msg)
+    file.close()
+
+def predictSignal():
+    global model
+
+    with torch.no_grad():
+        weight_file = 'model/torch_' + symbol + '_m30'
+        writeLog('load file: ' + weight_file)
+        model.load_state_dict(torch.load(weight_file, map_location='cpu'))
+        x = getImg()
+        xt = np.transpose(x, (0, 3, 1, 2))
+        xt_tensor = torch.tensor(xt, dtype=torch.float32, device=device)
+        logits = model(xt_tensor)
+        logits_pred = F.softmax(logits, dim=1)
+        pred = logits_pred.cpu().detach().numpy().argmax(1)
+
+    #print('predicted: ', pred)
+    writeLog('predicted: ' + str(pred))
+
+    if pred == 2:
+        return True
+    elif pred == 0:
+        return False
+    else:
+        return None
+
+
+def getImg(df):
+    p = df
+    p['close'] = np.round((p.bidclose + p.askclose) / 2, 5)
+    p['ma5'] = np.round(p.close.rolling(5).mean(), 5)
+    p['ma7'] = np.round(p.close.rolling(7).mean(), 5)
+    p['ma10'] = np.round(p.close.rolling(10).mean(), 5)
+    p.dropna(inplace=True)
+    fig = plt.figure(frameon=False)
+    fig.set_size_inches(3,2)
+    ax = plt.Axes(fig, [0., 0., 1., 1.])
+    ax.set_axis_off()
+    fig.add_axes(ax)
+    _df = p.iloc[0:windows]
+    plt.plot(_df.ma5, color='red')
+    plt.plot(_df.ma7, color='blue')
+    plt.plot(_df.ma10, color='green')
+    #plt.plot(p.close)
+    plt.savefig(img_path)
+    #plt.show()
+    plt.close()
+
+    x = plt.imread(img_path)
+    new_img = resize(x, (100,150))
+    x = np.array([new_img], np.float32) / 255
+    return x
 
 
 if __name__ == "__main__":
